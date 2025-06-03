@@ -95,7 +95,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "botmaster55")
-UPI_ID = os.environ.get("UPI_ID", "owajshaikhrcm-2@okicici")
+UPI_ID = os.environ.get("UPI_ID", "premiumuseronly@ybl")
 QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/zWSsdjrF/22d6a7122f3b.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/premiumuseronly_Bot")
 #--------------------------------------------
