@@ -18,18 +18,18 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8154426339:")
-APP_ID = int(os.environ.get("APP_ID", "29236719")) #Your API ID from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1ccf1bd0a86af974e3210a55f662c062") #Your API Hash from my.telegram.org
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8188646598:AAGwFQC9v786aYogwtslce4aC_FGOdazKRg:")
+APP_ID = int(os.environ.get("APP_ID", "23621595")) #Your API ID from my.telegram.org
+API_HASH = os.environ.get("API_HASH", "de904be2b4cd4efe2ea728ded17ca77d") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002163955891")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Arpitbotmovies") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "893383574")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002648688388")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "botmaster55") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "1249672673")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://keshavptdr98:D8lbdQUW4euV07l4@cluster0.dok926y.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mongodb011:rxXV4pGzxLJgxaXQ@cluster0.undjh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
@@ -90,10 +90,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "Arpitbotmovies")
+OWNER_TAG = os.environ.get("OWNER_TAG", "botmaster55")
 UPI_ID = os.environ.get("UPI_ID", "7470634722@ibl")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Arpitbotmovies")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Botmaster55")
 #--------------------------------------------
 #Time and its price
 #7 Days
