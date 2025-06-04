@@ -88,7 +88,6 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "{file_name} = Oʀɪɢɪɴᴀ�
 {language} = Lᴀɴɢᴜᴀɢᴇ Oғ Fɪʟᴇ Nᴀᴍᴇ
 {year} = Yᴇᴀʀ Oғ Fɪʟᴇ
 {default_caption} = Rᴇᴀʟ Cᴀᴘᴛɪᴏɴ Oғ Fɪʟᴇ.
-
 ╔═════ ᴊᴏɪɴ https://t.me/saktiman55") #set your Custom Caption here, Keep None for Disable Custom Caption
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
