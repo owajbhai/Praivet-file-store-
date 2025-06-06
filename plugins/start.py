@@ -66,7 +66,7 @@ async def short_url(client: Client, message: Message, base64_string):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def start_command(client: Client, message: Message):
-    data = message.command[1]
+"""    data = message.command[1]
     if data.split("-", 1)[0] == "verify": # set if or elif it depend on your code
         userid = data.split("-", 2)[1]
         token = data.split("-", 3)[2]
@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
             return await message.reply_text(
                 text="<b>Invalid link or Expired link !</b>",
                 protect_content=True
-            )
+            )"""
     user_id = message.from_user.id
     id = message.from_user.id
     is_premium = await is_premium_user(id)
@@ -119,7 +119,7 @@ async def start_command(client: Client, message: Message):
     # Handle normal message flow
     text = message.text
 
-    if len(text) > 7:
+ """   if len(text) > 7:
         if not await check_verification(client, message.from_user.id) and VERIFY == True:
             btn = [[
                 InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{BOT_USERNAME}?start="))
@@ -131,7 +131,7 @@ async def start_command(client: Client, message: Message):
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
-            return
+            return"""
         try:
             basic = text.split(" ", 1)[1]
             if basic.startswith("yu3elk"):
