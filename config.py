@@ -52,7 +52,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b
 #--------------------------------------------
 
 
-API = environ.get("API", "") # shortlink api
+API = environ.get("API", "2a8217d0e33d13ebe75b67eeb004ff47ed064b03") # shortlink api
 URL = environ.get("URL", "onylinks.com") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/howtoopenlink5/13") # how to open link 
 BOT_USERNAME = environ.get("BOT_USERNAME", "SouravSearch_bot") # bot username without @
