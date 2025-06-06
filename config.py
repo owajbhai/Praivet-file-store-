@@ -26,12 +26,16 @@ API_HASH = os.environ.get("API_HASH", "de904be2b4cd4efe2ea728ded17ca77d") #Your 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002299875909")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "botmaster55") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "1249672673")) # Owner id
+
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
+
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mongodb011:rxXV4pGzxLJgxaXQ@cluster0.undjh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
+
 #--------------------------------------------
+
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 FORCE_SUB_CHANNEL1 = os.getenv("FORCE_SUB_CHANNEL1", "@saktiman55")
 FORCE_SUB_CHANNEL2 = os.getenv("FORCE_SUB_CHANNEL2", None)
@@ -39,17 +43,31 @@ FORCE_SUB_CHANNEL3 = os.getenv("FORCE_SUB_CHANNEL3", None)
 FORCE_SUB_CHANNEL4 = os.getenv("FORCE_SUB_CHANNEL4", None)
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/logchennel0")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
+
 #--------------------------------------------
+
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
+
+
+API = environ.get("API", "") # shortlink api
+URL = environ.get("URL", "") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "") # bot username without @
+VERIFY = environ.get("VERIFY", "True")
+
+
+#--------------------------------------------
+
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "onylinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "2a8217d0e33d13ebe75b67eeb004ff47ed064b03")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/howtoopenlink5/13")
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
+
 #--------------------------------------------
 
 #--------------------------------------------
