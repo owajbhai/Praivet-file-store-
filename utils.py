@@ -1,4 +1,4 @@
-import pytz, random, string  
+"""import pytz, random, string  
 from datetime import date 
 from config import API, URL
 from shortzy import Shortzy
@@ -53,3 +53,4 @@ async def check_verification(bot, userid):
             return True
     else:
         return False
+"""
