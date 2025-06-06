@@ -243,14 +243,14 @@ class Rohit:
     async def get_verify_count(self, user_id: int):
         user = await self.sex_data.find_one({'_id': user_id})
         if user:
-            return user.get('verify_count', 0)
+            return user.get('verify_count', 1)
         return 0
 
     # Reset all users' verify counts to 0
     async def reset_all_verify_counts(self):
         await self.sex_data.update_many(
             {},
-            {'$set': {'verify_count': 0}} 
+            {'$set': {'verify_count': 1}} 
         )
 
     # Get total verify count across all users
