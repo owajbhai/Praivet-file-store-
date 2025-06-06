@@ -119,6 +119,18 @@ async def start_command(client: Client, message: Message):
     text = message.text
 
     if len(text) > 7:
+        if not await check_verification(client, message.from_user.id) and VERIFY == True:
+            btn = [[
+                InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{BOT_USERNAME}?start="))
+            ],[
+                InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
+            ]]
+            await message.reply_text(
+                text="<b>You are not verified !\nKindly verify to continue !</b>",
+                protect_content=True,
+                reply_markup=InlineKeyboardMarkup(btn)
+            )
+            return
         try:
             basic = text.split(" ", 1)[1]
             if basic.startswith("yu3elk"):
