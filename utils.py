@@ -1,7 +1,7 @@
-"""import pytz, random, string  
-from datetime import date 
-from config import API, URL
-from shortzy import Shortzy
+#"""import pytz, random, string  
+#from datetime import date 
+#from config import API, URL
+#from shortzy import Shortzy
 
 TOKENS = {}
 VERIFIED = {}
@@ -53,4 +53,3 @@ async def check_verification(bot, userid):
             return True
     else:
         return False
-"""
