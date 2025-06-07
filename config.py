@@ -93,7 +93,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 OWNER_TAG = os.environ.get("OWNER_TAG", "botmaster55")
 UPI_ID = os.environ.get("UPI_ID", "owajshaikhrcm-2@okicici")
 QR_PIC = os.environ.get("QR_PIC", "https://telegra.ph/file/3e83c69804826b3cba066-16cffa90cd682570da.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Botmaster55")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/premiumuseronly_Bot")
 #--------------------------------------------
 #Time and its price
 #7 Days
